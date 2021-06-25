@@ -10,19 +10,19 @@ pipeline {
    
         stage('Init') {
             steps {
-                bat 'C:\Users\Administrator\Downloads\terraform12\terraform.exe init'
+                bat "C:\\Users\\Administrator\\Downloads\\terraform12\\terraform.exe init"
             }
         }
     
         stage('Plan') {
             steps {
-                bat 'C:\Users\Administrator\Downloads\terraform12\terraform.exe plan'
+                bat "C:\\Users\\Administrator\\Downloads\\terraform12\\terraform.exe plan"
             }
         }
    
         stage('Apply ') {
             steps {
-                bat 'C:\Users\Administrator\Downloads\terraform12\terraform.exe apply --auto-approve'
+                bat "C:\\Users\\Administrator\\Downloads\\terraform12\\terraform.exe apply --auto-approve"
             }
         }
     
