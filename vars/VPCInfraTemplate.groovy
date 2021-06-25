@@ -26,11 +26,11 @@ pipeline {
             }
         }
     
-        stage('Destroy ') {
+        /*stage('Destroy ') {
             steps {
                 bat 'terraform destroy --auto-approve'
             }
-        }
+        }*/
     }
 }
 }
