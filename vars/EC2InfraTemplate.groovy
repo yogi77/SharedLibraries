@@ -26,11 +26,11 @@ pipeline {
             }
         }
     
-        stage('Destroy ') {
+        /*stage('Destroy ') {
             steps {
                 bat "C:\\Users\\Administrator\\Downloads\\terraform12\\terraform.exe destroy --auto-approve"
             }
-        }
+        }*/
     }
 }
 }
