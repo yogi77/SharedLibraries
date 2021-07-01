@@ -28,7 +28,7 @@ pipeline {
     
         stage('Destroy ') {
             steps {
-                bat 'terraform destroy --auto-approve'
+                bat "C:\\Users\\Administrator\\Downloads\\terraform12\\terraform.exe destroy --auto-approve"
             }
         }
     }
